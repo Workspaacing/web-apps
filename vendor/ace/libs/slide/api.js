@@ -922,7 +922,7 @@ ApiDocument.prototype.CreateNewHistoryPoint = function(){};
  * {
  *   "key" : "CompanyName",
  *   "tag" : "companyName",
- *   "value" : "ONLYOFFICE",
+ *   "value" : "Workspaacing Office",
  *   "type" : "text"
  * }
  */

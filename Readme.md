@@ -1,27 +1,27 @@
 [![License](https://img.shields.io/badge/License-GNU%20AGPL%20V3-green.svg?style=flat)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
-<h1 > ONLYOFFICE web-apps</h1>
+<h1 > Workspaacing Office web-apps</h1>
 
 ## 💡 Overview
 
 Welcome to the `web-apps` repository! 
 
-It’s the frontend for [ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer) and [ONLYOFFICE Desktop Editors](https://github.com/ONLYOFFICE/DesktopEditors) — the part you interact with. It powers the interface that lets you create, edit, save, and export your text documents, spreadsheets, and presentations.
+It’s the frontend for [Workspaacing Office Document Server](https://github.com/Workspaacing Office/DocumentServer) and [Workspaacing Office Desktop Editors](https://github.com/Workspaacing Office/DesktopEditors) — the part you interact with. It powers the interface that lets you create, edit, save, and export your text documents, spreadsheets, and presentations.
 
 *Previous versions: Until 2019-10-23 the repository was called web-apps-pro.*
 
 ---
 
-## ⚙️ How it fits in the ONLYOFFICE ecosystem
+## ⚙️ How it fits in the Workspaacing Office ecosystem
 
 
 | Layer | Component | Role |
 |-----------|------------|------|
-| 🧠 **Engine** | [Document Server ↗](https://github.com/ONLYOFFICE/DocumentServer) | Handles editing logic, file conversion, real-time collaboration |
+| 🧠 **Engine** | [Document Server ↗](https://github.com/Workspaacing Office/DocumentServer) | Handles editing logic, file conversion, real-time collaboration |
 | 💻 **Interface** | **Web Apps** *(this repo)* | Provides the browser-based user interface |
 | 🧩 **Integrations** | [Integration API ↗](https://api.onlyoffice.com/docs/docs-api/get-started/basic-concepts/?utm_source=github&utm_medium=cpc&utm_campaign=GitHubWebApps) | Embeds editors into custom web platforms or apps |
 
-Together, these layers make **ONLYOFFICE** a full-fledged online editing suite.
+Together, these layers make **Workspaacing Office** a full-fledged online editing suite.
 
 ---
 
@@ -41,7 +41,7 @@ Together, these layers make **ONLYOFFICE** a full-fledged online editing suite.
 - Built-in chat and track changes  
 
 ⚡ **Developer-friendly integration**
-- Embed editors in any app using [ONLYOFFICE API ↗](https://api.onlyoffice.com/docs/docs-api/get-started/basic-concepts/?utm_source=github&utm_medium=cpc&utm_campaign=GitHubWebApps)
+- Embed editors in any app using [Workspaacing Office API ↗](https://api.onlyoffice.com/docs/docs-api/get-started/basic-concepts/?utm_source=github&utm_medium=cpc&utm_campaign=GitHubWebApps)
 - Customize toolbar, permissions, and callback behavior  
 
 🌍 **Fully browser-compatible**
@@ -68,7 +68,7 @@ Here’s a quick tour of what lives inside this repository:
 
 ## 🔧 Want to build this yourself? 
 
-If you’d like to compile or modify the editors yourself, use the [`build_tools`](https://github.com/ONLYOFFICE/build_tools) repository.
+If you’d like to compile or modify the editors yourself, use the [`build_tools`](https://github.com/Workspaacing Office/build_tools) repository.
 
 It automatically sets up dependencies and builds:
 
@@ -80,11 +80,11 @@ It automatically sets up dependencies and builds:
 
 We ❤️ community contributions!
 
-* **🐞 Found a bug?** Please report it by creating an [issue](https://github.com/ONLYOFFICE/web-apps/issues).
-* **❓ Have a question?** Ask our community and developers on the [ONLYOFFICE Forum](https://community.onlyoffice.com).
+* **🐞 Found a bug?** Please report it by creating an [issue](https://github.com/Workspaacing Office/web-apps/issues).
+* **❓ Have a question?** Ask our community and developers on the [Workspaacing Office Forum](https://community.onlyoffice.com).
 * **💡 Want to suggest a feature?** Share your ideas on our [feedback platform](https://feedback.onlyoffice.com/forums/966080-your-voice-matters).
 * **🧑‍💻 Need help for developers?** Check our [API documentation](https://api.onlyoffice.com/?utm_source=github&utm_medium=cpc&utm_campaign=GitHubWebApps).
 
 ---
 
-<p align="center"> Made with ❤️ by the ONLYOFFICE Team </p>
+<p align="center"> Made with ❤️ by the Workspaacing Office Team </p>

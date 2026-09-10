@@ -95,10 +95,10 @@ module.exports = function(grunt) {
                     to: _encode(process.env.API_URL_EDITING_CALLBACK) || 'https://api.onlyoffice.com/editors/callback'
                 },{
                     from: /\{\{COMPANY_NAME\}\}/g,
-                    to: _encode(process.env.COMPANY_NAME) || 'ONLYOFFICE'
+                    to: _encode(process.env.COMPANY_NAME) || 'Workspaacing Office'
                 }, {
                     from: /\{\{APP_TITLE_TEXT\}\}/g,
-                    to: _encode(process.env.APP_TITLE_TEXT) || 'ONLYOFFICE'
+                    to: _encode(process.env.APP_TITLE_TEXT) || 'Workspaacing Office'
                 }, {
                     from: /\{\{HELP_URL\}\}/g,
                     to: _encode(process.env.HELP_URL) || 'https://helpcenter.onlyoffice.com'
@@ -286,7 +286,7 @@ module.exports = function(grunt) {
                           to: packageFile.version
                       },{
                           from: /\{\{APP_CUSTOMER_NAME\}\}/g,
-                          to: process.env['APP_CUSTOMER_NAME'] || 'ONLYOFFICE'
+                          to: process.env['APP_CUSTOMER_NAME'] || 'Workspaacing Office'
                       },{
                           from: /\/\*\*[\s\S]+\.com\s+\*\//,
                           to: copyright

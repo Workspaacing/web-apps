@@ -1911,7 +1911,7 @@ ApiDocument.prototype.GetFormsByTag = function(sTag){ return [new ApiBlockLvlSdt
  * {
  *   "key" : "CompanyName",
  *   "tag" : "companyName",
- *   "value" : "ONLYOFFICE",
+ *   "value" : "Workspaacing Office",
  *   "type" : "text"
  * }
  */
